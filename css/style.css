@@ -68,6 +68,8 @@ header {
 
 #avatar {
     padding-top: 20px;
+    width:140px; /* you can use % */
+    height: 145px;
 }
 
 .navbar-inverse {
