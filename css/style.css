@@ -24,17 +24,26 @@ body {
 }
 
 header {
-    background-image:url(../img/intro-photo.jpeg);
+    /*background-image:url(../img/intro-photo.jpeg);
+    background-image:url(../video/Mock-up/Snapshot/Mock-up.jpg);
     background-repeat:no-repeat;
     background-position:center center;
     color:#fff;
-    padding-top:325px;
     text-align:center;
+
+    padding-top:325px;
     min-height:100vh;
+
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
-    background-size:cover;
+    background-size:cover;*/
+}
+
+.intro-text {
+    color:#fff;
+    padding-top:325px;
+    text-align:center;
 }
 
 .intro-lead-in {
@@ -43,6 +52,7 @@ header {
     font-size:40px;
     line-height:40px;
     margin-bottom:25px;
+    text-align:center;
 }
 
 .intro-heading {
@@ -52,6 +62,7 @@ header {
     font-size:75px;
     line-height:75px;
     margin-bottom:50px;
+    text-align:center;
 }
 
 .btn-xl {
@@ -64,6 +75,7 @@ header {
     font-size:18px;
     border-color:#fed136;
     padding:20px 40px;
+    text-align:center;
 }
 
 #avatar {
@@ -143,4 +155,34 @@ svg {
 .navbar-inverse .navbar-brand:hover,#about-nav a:hover,#services-nav a:hover,#portfolio-nav a:hover,#contact-nav a:hover {
     background-color:#D35400;
     color:#fff;
+}
+
+.navbar-right {
+        margin-right: 0px;
+}
+
+.big-splash {
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.big-splash video {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    min-width: 100vh;
+    min-height: 100vh;
+    z-index: -1;
+    transform: translateX(-50%);
+}
+
+.a.btn.btn-xl {
+padding-bottom: 10px;
 }
