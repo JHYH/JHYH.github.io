@@ -1,0 +1,138 @@
+body {
+    background-color: #1FDEDB;
+}
+
+.workspace-svg{
+    width: 400px;
+    margin-top: 80px;
+    padding-bottom: 25px;
+}
+
+.resume-svg{
+    width: 56px;
+}
+
+.about-svg{
+    background-color: #1FDEDB;
+    width: 56px;
+    position: relative;
+    top: 25px;
+    font-size: 14px;
+}
+
+
+.logo-name {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    padding: 7px 0;
+    line-height: 1.4;
+}
+
+.navbar-text{
+    margin-left:0px;
+}
+
+.navbar-toggle{
+    margin-top:15px;
+}
+
+.navbar-brand{
+    padding: 5px 5px 5px 5px;
+}
+
+ul li{
+    font-size: 25px;
+    padding-top: 10px;
+    font-family: 'Shrikhand', cursive;
+}
+
+h2 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.navbar{
+    background-color:#317AE1;
+    padding-right: 10px;
+    border-color:transparent;
+}
+
+.navbar a {
+    color:#1333A6;
+}
+
+.navbar h3{
+    color:white;
+    padding-top: 5px;
+    font-family: 'Delius Unicase', cursive;
+}
+
+.navbar .navbar-nav>li>a:hover {
+    color:#FFFCBF;
+    background-color:transparent;
+}
+
+.icon-bar {
+    background-color: #fff;
+    border-color:black;
+}
+
+.navbar .navbar-toggle{
+    border-color:black;
+}
+
+.intro-text {
+    margin-bottom:25px;
+    text-align:center;
+    color:black;
+}
+
+.intro-lead-in {
+    font-family:'Shrikhand',sans-serif;
+    font-style:italic;
+    font-size:40px;
+    line-height:40px;
+    margin-bottom:25px;
+    text-align:center;
+}
+
+.intro-heading {
+    font-family:'Shrikhand',sans-serif;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:75px;
+    line-height:75px;
+    text-align:center;
+    margin-bottom: 40px;
+}
+
+.section-title{
+    background-color: #1FDEDB;
+    position: relative;
+    bottom: 10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    float: right;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: normal;
+}
+
+.section h4{
+    margin-bottom: 30px;
+}
+
+.line{
+    border-bottom: 3px solid #FFFCBF;
+}
+
+div p {
+    padding-top: 35px;
+}
+
+.footer {
+    text-align:center;
+}
