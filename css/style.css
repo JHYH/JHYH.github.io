@@ -1,7 +1,7 @@
 body {
     background-color: #A5DEF1;
     position: relative;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 section {
@@ -106,7 +106,7 @@ h1.one span {
 ul li {
     font-size: 25px;
     padding-top: 10px;
-    font-family: 'Shrikhand', cursive;
+
 }
 
 h2 {
@@ -130,7 +130,7 @@ h2 {
 .navbar h3 {
     color: white;
     padding-top: 5px;
-    font-family: 'Delius Unicase', cursive;
+
 }
 
 .navbar .navbar-nav>li>a:hover {
@@ -153,14 +153,17 @@ h2 {
     margin-bottom: 25px;
     text-align: center;
     color: black;
+    font-family: 'Coda', cursive;
+    font-weight:bold;
 }
 
 .intro-heading {
     font-weight: 700;
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 20px;
     text-align: center;
     color: black;
+    font-family: 'Coda', cursive;
 }
 
 .section-title {
