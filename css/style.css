@@ -9,9 +9,15 @@ section {
     margin-top: -40px;
 }
 
-.contact-svg{
+.contact-svg {
     width: 30px;
     position: relative;
+    padding-top: 15px;
+
+}
+
+.padding-bottom-5px{
+    padding-bottom: 5px;
 }
 
 h1 {
@@ -44,6 +50,7 @@ h1.one span {
 .social-svg{
     display: inline;
     padding: 5px;
+    padding-bottom: 5px;
     width: 58px;
     position: relative;
 
