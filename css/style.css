@@ -13,10 +13,9 @@ section {
     width: 30px;
     position: relative;
     padding-top: 15px;
-
 }
 
-.padding-bottom-5px{
+.padding-bottom-5px {
     padding-bottom: 5px;
 }
 
@@ -47,24 +46,18 @@ h1.one span {
     z-index: 5;
 }
 
-.social-svg{
+.social-svg {
     display: inline;
     padding: 5px;
     padding-bottom: 5px;
     width: 58px;
     position: relative;
-
-
     backface-visibility: hidden;
-
-
-
     transform: scale(1);
     transition: all .25s;
-
 }
 
-.social-svg:hover, .social-svg:focus{
+.social-svg:hover, .social-svg:focus {
     color: #fff;
     outline: none;
     text-decoration: none;
@@ -75,10 +68,13 @@ h1.one span {
     width: 400px;
     margin-top: 125px;
     padding-bottom: 25px;
+    -webkit-filter: sepia(0.75);
+    filter: sepia(0.75);-webkit-filter: sepia(0.75);
+    filter: sepia(0.75);
 }
 
-.qut-svg{
-    margin-top:25px;
+.qut-svg {
+    margin-top: 25px;
     width: 90px;
 }
 
@@ -113,7 +109,6 @@ h1.one span {
 ul li {
     font-size: 25px;
     padding-top: 10px;
-
 }
 
 h2 {
@@ -137,7 +132,6 @@ h2 {
 .navbar h3 {
     color: white;
     padding-top: 5px;
-
 }
 
 .navbar .navbar-nav>li>a:hover {
@@ -161,7 +155,7 @@ h2 {
     text-align: center;
     color: black;
     font-family: 'Coda', cursive;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .intro-heading {
@@ -201,7 +195,7 @@ div p {
     text-align: center;
 }
 
-.skill-svg{
+.skill-svg {
     padding-top: 35px;
 }
 
@@ -212,6 +206,7 @@ div p {
     height: 25px;
     margin-top: 35px;
 }
+
 .progress > .progress-type {
     position: absolute;
     left: 0px;
@@ -220,6 +215,7 @@ div p {
     color: rgb(255, 255, 255);
     background-color: rgba(25, 25, 25, 0.2);
 }
+
 .progress > .progress-completed {
     position: absolute;
     right: 0px;
@@ -227,7 +223,7 @@ div p {
     padding: 3px 10px 2px;
 }
 
-form{
+form {
     margin-top: 40px;
 }
 
@@ -274,5 +270,5 @@ form{
 
     .collapse.in {
         display: block !important;
-    }
+    };
 }
