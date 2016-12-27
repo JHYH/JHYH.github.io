@@ -1,0 +1,348 @@
+body {
+    background-color: #A5DEF1;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+}
+
+section {
+    padding-top: 40px;
+    margin-top: -40px;
+}
+
+
+
+.contact-svg {
+    width: 30px;
+    position: relative;
+    padding-top: 15px;
+}
+
+.portfolio-thumbnail{
+    width: 265px;
+    height: 160px;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.margin-bottom-35px{
+    margin-bottom: 35px;
+}
+
+.padding-bottom-5px{
+    padding-bottom: 5px;
+}
+
+h1 {
+    position: relative;
+    margin-top: 20px;
+}
+
+h1.one {
+    margin-top: 0;
+}
+
+.social-svg{
+    display: inline;
+    padding: 5px;
+    padding-bottom: 5px;
+    width: 58px;
+    position: relative;
+
+
+    backface-visibility: hidden;
+
+
+
+    transform: scale(1);
+    transition: all .25s;
+
+}
+
+.social-svg:hover, .social-svg:focus{
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+    transform: scale(1.3);
+}
+
+.avatar-img {
+    width: 400px;
+    margin-top: 125px;
+    padding-bottom: 25px;
+}
+
+.qut-svg{
+    margin-top:25px;
+    width: 90px;
+}
+
+.section-svg {
+    background-color: #A5DEF1;
+    width: 56px;
+    position: relative;
+    top: 25px;
+}
+
+.logo-name {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    padding: 7px 0;
+    line-height: 1.4;
+}
+
+.navbar-text {
+    margin-left: 0px;
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+}
+
+.navbar-brand {
+    padding: 5px 5px 5px 5px;
+}
+
+ul li {
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+
+h2 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+.navbar {
+    background-color: #36506C;
+    padding-right: 10px;
+    border-color: transparent;
+}
+
+.navbar a {
+    color: #EBF7FD;
+}
+
+.navbar h3 {
+    color: white;
+    padding-top: 5px;
+
+}
+
+.navbar .navbar-nav>li>a:hover {
+    color: #fffcbf;
+    background-color: transparent;
+}
+
+.icon-bar {
+    background-color: #fff;
+    border-color: black;
+}
+
+.navbar .navbar-toggle {
+    border-color: black;
+}
+
+.intro-lead-in {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: black;
+    font-family: 'Coda', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-variant: small-caps;
+}
+
+.section-title {
+    background-color: #A5DEF1;
+    position: relative;
+    bottom: 10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    float: right;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: normal;
+}
+
+.section h4 {
+    margin-bottom: 30px;
+}
+
+.line {
+    border-bottom: 3px solid #233142;
+}
+
+div p {
+    margin-top: 35px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.skill-svg{
+    padding-top: 35px;
+}
+
+/*Skill Progress Bar*/
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-top: 35px;
+}
+.progress > .progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 800;
+    padding: 3px 30px 2px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+}
+
+form{
+    margin-top: 40px;
+}
+
+@media (max-width: 990px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+
+    .navbar-nav>li {
+        float: none;
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+}
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.hovereffect .overlay {
+    position: absolute;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    border-bottom: 1px solid #FFF;
+    border-top: 1px solid #FFF;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0,1);
+    -ms-transform: scale(0,1);
+    transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+    filter: brightness(0.6);
+    -webkit-filter: brightness(0.6);
+}
+
+.hovereffect h2 {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    background-color: transparent;
+    color: #FFF;
+    padding: 1em 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a, hovereffect p {
+    color: #FFF;
+    padding: 1em 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
