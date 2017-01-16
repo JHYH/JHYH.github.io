@@ -18,7 +18,7 @@ section {
 }
 
 .portfolio-thumbnail{
-    width: 265px;
+    width: 310px;
     height: 160px;
 }
 
@@ -246,8 +246,8 @@ form{
     }
 
     .navbar-nav {
-        float: none!important;
-        margin-top: 7.5px;
+        float: none!imporotant;
+        margin-p: 7.5px;
     }
 
     .navbar-nav>li {
