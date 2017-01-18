@@ -18,8 +18,8 @@ section {
 }
 
 .portfolio-thumbnail{
-    width: 310px;
-    height: 160px;
+    width: 292px;
+    height: 195px;
 }
 
 .portfolio-item {
@@ -245,10 +245,6 @@ form{
         display: none!important;
     }
 
-    .navbar-nav {
-        float: none!imporotant;
-        margin-p: 7.5px;
-    }
 
     .navbar-nav>li {
         float: none;
@@ -262,8 +258,11 @@ form{
     .collapse.in {
         display: block !important;
     }
-}
 
+    .hovereffect .overlay {
+
+    }
+}
 .hovereffect {
     width: 100%;
     height: 100%;
@@ -281,8 +280,7 @@ form{
     height: 80%;
     left: 10%;
     top: 10%;
-    border-bottom: 1px solid #FFF;
-    border-top: 1px solid #FFF;
+
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
     -webkit-transform: scale(0,1);
@@ -344,5 +342,3 @@ form{
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
-
-
