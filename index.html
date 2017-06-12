@@ -24,9 +24,16 @@
     <link href="https://fonts.googleapis.com/css?family=Coda|Nunito" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+
+    <script type="text/javascript" src="js/app.js"></script>
+
 </head>
 
-<body data-spy="scroll" data-target="#navbar-collapse-1">
+<body data-spy="scroll" data-target="#navbar-collapse-1" class="fp-responsive">
 
 <div class="container">
     <!-- container -->
@@ -63,31 +70,39 @@
                 </ul>
             </div>
         </nav>
-        <!-- Landing-->
-        <img class="img-circle img-responsive center-block avatar-img" alt="image" src="img/avatar.jpg">
 
-            <h1 class="intro-lead-in">Hello! My name is Jason Hsiao, I'm a Junior Front-end Developer</h1>
-
-            <h1 class="intro-lead-in">I'm a Junior Front-end Developer</h1>
-
-            <h1 class="intro-lead-in">Currently creating awesome stuff in Brisbane, Australia</h1>
-
-
-        <!-- End Landing-->
     </header>
 
+
+
+    <!-- Landing-->
+
+    <!--
+    <img class="img-circle img-responsive center-block avatar-img" alt="image" src="img/avatar.jpg">
+    -->
+
+    <!-- End Landing-->
+
+    <div id="fullpage">
     <!-- About Me -->
-    <section id="About">
+    <section id="About" class="section">
         <div class="line">
             <span> <img class="section-svg img-responsive" alt="svg" src="img/about.svg"></span>
             <span class="section-title">About</span>
         </div>
-        <p>Movin' on up to the east side. We finally got a piece of the pie. Maybe you and me were never meant to be. But baby think of me once in awhile. I'm at WKRP in Cincinnati. Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track now. We're gonna make our dreams come true? They're creepy and they're kooky mysterious and spooky. They're all together ooky the Addams Family. He's gainin' on you so you better look alive. He busy revin' up his Powerful Mach 5. Fish don't fry in the kitchen and beans don't burn on the grill. Took a whole lotta tryin' just to get up that hill. Texas tea.; The year is 1987 and NASA launches the last of Americas deep space probes.</p>
+
+        <h1 class="intro-lead-in">Hello! My name is Jason Hsiao, I'm a Junior Front-end Developer</h1>
+
+        <h1 class="intro-lead-in">Currently creating awesome stuff in Taipei City, Taiwan</h1>
+
+        <p class="lead text-center">I enjoy learning and am eager to pick up new skills. I am a quick learner and adapt well to new techniques and challenges</p>
+        <p class="lead text-center">Love to play basketball, hit the gym and travel with mates in my casual time</p>
+        <p class="lead text-center">Keen to continuously strive for higher achievement in my life</p>
     </section>
     <!-- End About Me -->
 
     <!-- Skills -->
-    <section id="Skills">
+    <section id="Skills" class="section-spacing section">
         <div class="line">
             <span> <img class="section-svg img-responsive" alt="svg" src="img/skill.svg"></span>
             <span class="section-title">Skills</span>
@@ -149,7 +164,7 @@
     <!-- End Skills-->
 
     <!-- Education -->
-    <section id="Education">
+    <section id="Education" class="section-spacing section">
         <div class="line">
             <span> <img class="section-svg img-responsive" alt="svg" src="img/education.svg"></span>
             <span class="section-title">Education</span>
@@ -175,7 +190,7 @@
     <!-- End Education-->
 
     <!-- Portfolio -->
-    <section id="Portfolio">
+    <section id="Portfolio" class="section-spacing section fp-auto-height-responsive">
         <div class="line margin-bottom-35px">
             <span> <img class="section-svg img-responsive" alt="svg" src="img/project.svg"></span>
             <span class="section-title">Portfolio</span>
@@ -238,7 +253,7 @@
     <!-- End Portfolio-->
 
     <!-- Contact -->
-    <section id="Contact">
+    <section id="Contact" class="section-spacing section ">
         <div class="line">
             <span> <img class="section-svg img-responsive" alt="svg" src="img/contact.svg"></span>
             <span class="section-title">Contact</span>
@@ -268,27 +283,27 @@
             </form>
         </div>
 
-         <div class="col-md-6 text-center" style="margin-top: 20px;">
+         <div class="col-md-6 text-center">
 
              <img class="contact-svg img-responsive center-block" alt="svg" src="img/location.svg">
              <h4>Location</h4>
-             <div class="small">295 TURTON STREET, COOPERS PLAINS</div>
-             <div class="small">BRISBANE, QUEENSLAND 4108</div>
+             <div class="small">Beitou District, Taipei Cit</div>
+             <div class="small">Taipei City, Taiwan 112</div>
 
 
              <img class="contact-svg img-responsive center-block" alt="svg" src="img/email.svg">
              <h4>Email</h4>
-             <div class="small">jason.yh.hsiao@gmail.com </div>
+             <div class="small">jasonhsiao.io@gmail.com </div>
 
              <img class="contact-svg img-responsive center-block" alt="svg" src="img/phone.svg">
              <h4>Phone</h4>
-             <div class="small padding-bottom-5px">0426520131</div>
+             <div class="small padding-bottom-5px">+886909726169</div>
 
 
-                 <a href="#"><img class="social-svg img-responsive center-block" alt="svg" src="img/facebook.svg"></a>
+                 <a href="https://www.facebook.com/JasonHsiaoGG"><img class="social-svg img-responsive center-block" alt="svg" src="img/facebook.svg"></a>
                  <a href="#"><img class="social-svg img-responsive center-block" alt="svg" src="img/linkedin.svg"></a>
-                 <a href="#"><img class="social-svg img-responsive center-block" alt="svg" src="img/github-logo.svg"></a>
-                 <a href="#"><img class="social-svg img-responsive center-block" alt="svg" src="img/instagram.svg"></a>
+                 <a href="https://github.com/JHYH"><img class="social-svg img-responsive center-block" alt="svg" src="img/github-logo.svg"></a>
+                 <a href="https://www.instagram.com/thefakejhyh/"><img class="social-svg img-responsive center-block" alt="svg" src="img/instagram.svg"></a>
 
 
          </div>
@@ -297,24 +312,21 @@
 
     </section>     <!-- End Contact-->
 
-
-    <!-- End Contact-->
-    <section id="footer">
-
-    <hr class="line">
-
-    <div class="text-center">
-        <p>&copy; 2016 Jason Hsiao</p>
     </div>
-    </section> <!-- End Footer-->
+
+</div> <!-- End fullpage div-->
+
+
+
 
 
 </div> <!-- End Container -->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 
 </body>
 

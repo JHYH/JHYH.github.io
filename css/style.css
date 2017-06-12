@@ -4,12 +4,9 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-section {
-    padding-top: 40px;
-    margin-top: -40px;
+.section-spacing {
+    margin-top: 15px;
 }
-
-
 
 .contact-svg {
     width: 30px;
@@ -180,9 +177,7 @@ h2 {
     border-bottom: 3px solid #233142;
 }
 
-div p {
-    margin-top: 35px;
-}
+
 
 .footer {
     text-align: center;
